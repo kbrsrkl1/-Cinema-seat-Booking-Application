@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@600&display=swap');
+body { 
+    background-image:url(pexels-photo-7234214.jpg);
+}
+
+
+h1 {
+    text-align: center;
+    font-family:Cinzel;
+    font-size: 50px;
+    color: darkred;
+}
+
+.seat {
+    background-color:rgb(145, 18, 18);
+    height: 20px;
+    width: 20px;
+    margin: 3px;
+    border-radius: 5px;
+    align-items: center;
+}
+
+.seat:hover{
+    background: black;
+}
+
+
+.seat.reserved {
+   background-color: #fff;
+
+}
+
+.seat.selected {
+    background-color: antiquewhite;
+}
+.row{
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+    gap: 10px 60px;
+}

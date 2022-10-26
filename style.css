@@ -45,19 +45,19 @@ body {
 }
 
 .seat:hover{
-   /* background: black;*/
+    background: black;
     cursor: pointer;
     transform: scale(1.3);
 }
 
 
 .seat.reserved {
-   background-color: #fff;
+   background-color: rgb(253, 247, 247);
 
 }
 
 .seat.selected {
-    background-color: rgb(180, 150, 110);
+    background-color: rgb(94, 93, 93);
 }
 .row{
     display: flex;
@@ -82,4 +82,9 @@ body {
 
 .space:hover{
     background-color: rgb(145, 18, 18);
+}
+
+.text{
+    margin-left: 525px;
+    color: rgb(165, 162, 162); ;
 }

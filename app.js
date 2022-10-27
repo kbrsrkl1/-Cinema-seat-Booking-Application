@@ -32,7 +32,7 @@ function calculateTotal() {
         seatsArr.push(seat);
     });
 
-    // [1,3,5]
+
     let selectedSeatIndexs = selectedSeatsArr.map(function(seat) {
         return seatsArr.indexOf(seat);
     });

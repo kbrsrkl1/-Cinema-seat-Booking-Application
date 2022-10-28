@@ -1,11 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@600&display=swap');
 body { 
-    background-image:url(pexels-photo-7234214.jpg);
+    background-image:url(./img/pexels-photo-7234214.jpg);
 }
 
 .typing-demo {
     margin-left: 100px;
-    width: 29ch;
+    width: 30ch;
     animation: typing 10s steps(22),blink .5s step-end infinite alternate;
     white-space:nowrap;
     overflow: hidden;

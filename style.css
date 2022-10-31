@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@600&display=swap');
 body { 
     background-image:url(./img/pexels-photo-7991380.jpg);
-    
+    justify-content: center;
 }
 
 .typing-demo {

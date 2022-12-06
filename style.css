@@ -90,9 +90,11 @@ p.text span {
     font-size: 17px;
 }
 
-.space:not:hover{
-    background-color: rgb(145, 18, 18);
+.info .seat:not(.selected .space .reserved):hover{
+    cursor: pointer;
+    transform: scale(1.1);
 }
+
 
 .text{
     margin-left: 525px;

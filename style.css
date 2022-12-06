@@ -82,6 +82,7 @@ body {
     color: rgb(108, 107, 107);
     display: flex;
     gap: 7px 7px;
+    list-style: none;
 }
 
 

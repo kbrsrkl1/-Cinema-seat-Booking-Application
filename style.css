@@ -2,7 +2,7 @@
 
 
 body { 
-    background-color: rgba(230, 183, 183, 0.56);
+    background-color: rgba(180, 165, 165, 0.56);
 }
 
 .typing-demo {
@@ -55,7 +55,7 @@ body {
 }
 */
 .seat.selected {
-   background-color: rgb(93, 94, 94);
+    background-color: rgb(93, 94, 94);
 }
 
 .seat:not(.reserved):hover {
